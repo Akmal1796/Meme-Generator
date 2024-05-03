@@ -31,3 +31,38 @@ code {
   height: 50px;
   margin-right: 10px;
 }
+
+.main {
+  margin-top: 30px;
+}
+
+.form {
+  display: grid;
+  justify-content: space-around;
+  row-gap: 20px;
+  grid-template-columns: 250px 250px;
+}
+
+.input-text {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.btn {
+  padding: 15px 10px;
+  grid-column: 1/-1;
+  background-image: linear-gradient(to left, rgb(166, 40, 255), rgb(108, 0, 185));
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.meme-img {
+  margin-top: 50px;
+  width: 400px;
+  position: relative;
+}
