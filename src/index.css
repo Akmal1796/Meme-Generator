@@ -80,3 +80,39 @@ code {
   background-color: antiquewhite;
   padding: 10px;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  align-items: center;
+}
+
+.profile {
+  width: 200px;
+  height: 150px;
+}
+
+.star {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.content h1 {
+  font-size: 22px;
+}
+
+.content p {
+  margin: 0;
+}
